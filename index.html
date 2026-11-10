@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arcade Hub</title>
+<style>
+body {
+  background: #101827;
+  color: white;
+  font-family: Arial;
+  margin: 0;
+  padding: 30px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 { color: #a5b4fc; }
+h2 { margin-top: 45px; }
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.game {
+  background: #192536;
+  border: 1px solid #293b52;
+  border-radius: 18px;
+  padding: 20px;
+  width: 190px;
+}
+.game img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+button {
+  background: #303d50;
+  color: white;
+  border: 0;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>⚡ Arcade Hub</h1>
+  <span>Apps　 Games　 Settings</span>
+</header>
+
+<h2>Popular Games</h2>
+
+<div class="games">
+
+  <div class="game">
+    <h3>🐍 Snake</h3>
+    <p>Classic Snake</p>
+    <button onclick="location.href='games/snake.html'">
+      ▶ Play
+    </button>
+  </div>
+
+  <div class="game">
+    <h3>🏈 Retro Bowl</h3>
+    <p>Football game</p>
+    <button onclick="alert('Add an authorized game link here!')">
+      ▶ Play
+    </button>
+  </div>
+
+  <div class="game">
+    <h3>🧱 Tetris</h3>
+    <p>Block puzzle</p>
+    <button onclick="location.href='games/tetris.html'">
+      ▶ Play
+    </button>
+  </div>
+
+</div>
+
+</body>
+</html>
